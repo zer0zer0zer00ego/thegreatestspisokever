@@ -3,4 +3,6 @@ project(untitledspisok)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(untitledspisok main.cpp)
+add_executable(untitledspisok main.cpp
+        realisation.cpp
+        dllist6.hh)
